@@ -1,0 +1,50 @@
+.contenedorProducto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contenedorPrincipal {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.contenedorAcciones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedorBotones {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonVisible {
+    display: block;
+}
+
+.buttonInvisible {
+    display: none;
+}
+
+#wapperDetalleVentas {
+    display: none;
+    height: 100px;
+    flex-direction: column;
+    padding: 24px;
+}
+
+#wapperDetalleVentas > div:nth-child(1) {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#detalleVentas > table {
+    width: 100%;
+}
+
+#detalleVentas > table > tbody > tr > td {
+    text-align: center;
+}
